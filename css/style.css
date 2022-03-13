@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    padding: 1.5rem;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container{
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 16px;
+}
+
+.community-section{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.community-section h1{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.community-section h2{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.community-section p{
+    color: hsl(218, 22%, 67%);
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.second-box{
+    display: flex;
+}
+
+.community-subscription{
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    border-radius: 0 0 0 10px;
+    padding: 1.5rem;
+    color: white;
+}
+
+.community-subscription h1{
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.money{
+    display: flex;
+    margin-top: 10px;
+}
+
+.dollar{
+    font-weight: 700;
+    font-size: 25px;
+    align-items: center;
+    color: white;
+    
+}
+
+.month{
+    color: white;;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 4px;
+    font-weight: 400;
+    
+}
+
+.acces{
+    margin-top: 5px;
+    color: hsl(204, 43%, 93%);
+}
+
+.sign-button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 250px;
+    height: 45px;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 2.5rem;
+}
+
+.community-why{
+    background-color: hsl(179, 62%, 43%, 50%);
+    width: 50%;
+    border-radius: 0 0 10px 0;
+    padding: 1.5rem;
+    color: hsl(204, 43%, 93%);
+}
+
+.community-why h1{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.community-why ul{
+     margin-top: 10px;
+}
+
+.community-why ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+   
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 150px;}
+.attribution a { color: hsl(228, 45%, 44%); }
